@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+OpenTPS_venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dose data
+*.npy
+*.npz
+
+# Generated figures
+*.png
+*.jpg
+*.jpeg
+
+# EGSnrc / EDKnrc
+*.keV
+*.egsdat
+*.egslst
+*.egslog
+
+# Generated OpenTPS kernels
+data/Kernels_18MV_test/
+data/Kernels_18MV_BACKUP/
+
+# Temporary files
+*.tmp
+*.bak
+*~
